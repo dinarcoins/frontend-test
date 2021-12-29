@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FE test</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div id="myDIV" class="header">
+		<h1>Work to do</h1>
+		<p class="text yellow-color">
+			enter text into the input field to add items to your list.
+		</p>
+		<p class=" text green-color">
+			click the items to mark it as complete
+		</p>
+		<p class="text blue-color">
+			click the "X" to remove the items from your list.
+		</p>
+		<div class="input-form">
+			<input type="text" id="myInput" placeholder="New item...">
+			<span onclick="newElement()" class="addBtn">ADD</span>
+		</div>
+	</div>
+
+	<ul id="myUL">
+		<li>Bai tap so 1</li>
+		<li>Bai tap so 2</li>
+		<li>Bai tap so 3</li>
+		<li>Bai tap so 4</li>
+		<li>Bai tap so 5</li>
+	</ul>
+
+	<script src="./main.js"></script>
+</body>
+
+</html>
